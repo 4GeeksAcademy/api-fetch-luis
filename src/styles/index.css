@@ -1,12 +1,55 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-/* 
+.container-fluid {
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    border: cornflowerblue solid 2px;
+}
 
-    You can write your own styles here...
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.input-primary{
+    height: 40px;
+    border-radius: 5px;
+    border: rgb(241, 135, 135) solid 2px ;
+}
+
+.input-edit {
+    border-radius: 5px;
+    border: rgb(241, 135, 135) solid 2px ;
+}
+
+
+
+
+.eliminar-icon {
+    display: none;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    margin-left: 250px;
+    
+}
+
+.tarea-item:hover .eliminar-icon {
+    display: inline;
+}
+
+.btn {
+    gap: 2;
+}
+
+
+  
